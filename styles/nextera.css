@@ -162,6 +162,31 @@ main > section{
     font-weight: 600;
     margin-top: 10px;
 }
+/* sponsor */
+.sponsor-info{
+    max-width: 542px;
+    margin: 50px auto;
+    text-align: center;
+}
+.sponsor-tile{
+    font-size: 2.82rem;
+    font-weight: 700;
+    margin-bottom: 24px;
+}
+.sponsor-discription{
+    font-size: 1rem;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+.sponsor-companys{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 155px;
+    margin-bottom: 130px;
+}
+.sponsor-companys img{
+    filter: grayscale(100%);
+}
 
 /* responsive media query */
 /* small device */
@@ -180,7 +205,7 @@ main > section{
     .teams{
         flex-direction: column;
     }
-    .team-img-container{
+    .team-img-container, .sponsor-companys{
         grid-template-columns: repeat(1, 1fr);
     }
     .out-features{
@@ -191,6 +216,10 @@ main > section{
       gap: 20px;
       /* this is for to come the item all in center */
       justify-items: center; 
+    }
+    .sponsor-companys{
+        justify-items: center;
+        gap: 150px;
     }
 
 }
@@ -206,5 +235,11 @@ main > section{
       grid-template-columns: repeat(2, 2fr);
       gap: 24px;
       justify-items: center; 
+    }
+    .sponsor-companys{
+        /* what should i do for the last item to make it center  */
+        grid-template-columns: repeat(2, 1fr);
+        justify-items: center;
+        gap: 155px;
     }
 }
