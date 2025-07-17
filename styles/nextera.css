@@ -151,6 +151,23 @@ padding-left: 21px;
     margin-bottom: 20px;
 }
 
+#exp-badge{
+    padding: 45px 42px;
+    font-style: 1.5rem;
+    font-weight: 500;
+    margin-left: -100px;
+    margin-top: -77px;
+}
+#exp-year{
+    font-size: 4rem;
+    font-weight: 700;
+
+}
+
+.architect{
+    width: 100%;
+}
+
 
 /* facts */
 .fact-title{
@@ -248,7 +265,7 @@ padding-left: 21px;
         padding: 0 auto;
         text-align: center;
     }
-    .teams{
+    .teams, .enjoy{
         flex-direction: column;
     }
     .team-img-container, .sponsor-companys{
@@ -267,11 +284,15 @@ padding-left: 21px;
         justify-items: center;
         gap: 150px;
     }
+    #exp-badge{
+        margin-top: 20px;
+        margin-left: 20px;
+    }
 
 }
 /* median size device */
 @media screen and (min-width:576px) and (max-width:992px ) {
-    .teams{
+    .teams, .enjoy{
         flex-direction: column;
     }
     .out-features{
@@ -287,5 +308,9 @@ padding-left: 21px;
         grid-template-columns: repeat(2, 1fr);
         justify-items: center;
         gap: 155px;
+    }
+    #exp-badge{
+        margin-top: 20px;
+        margin-left: 20px;
     }
 }
