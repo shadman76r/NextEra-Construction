@@ -112,19 +112,46 @@ main > section{
 #Quick-list{
     font-weight: 500;
 }
+/* section of achitect */
+
+
 .feature-description{
     font-weight: 400;
     font-size: 1rem;
     margin-bottom: 32px;
 }
 
+
 /* enjoy section */
+#feature-section-title{
+   border-left: 5px solid #FF900E;
+padding-left: 21px; 
+}
+
 .enjoy-title{
     font-size: 2.82rem;
     font-size: 700;
     border-left: 4px solid #FF900E;
     padding-left: 21px;
 }
+.feature-card .enjoy-title-card{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+.enjoy{
+    gap: 140px;
+}
+.feature-card{
+
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 30px 0 rgba(0, 0, 0, 0.06);
+    margin-bottom: 20px;
+}
+
+
 /* facts */
 .fact-title{
     font-size: 2.82rem;
