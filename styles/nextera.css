@@ -188,6 +188,25 @@ main > section{
     filter: grayscale(100%);
 }
 
+/* Footer section */
+.footer{
+    max-width: 1440px;
+    margin: 0 auto;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    margin-bottom: 216px;
+}
+.footer-container{
+    max-width: 620px;
+    max-height: 23px;
+    text-align: center;
+    margin: 39px 410px;
+}
+.footer-detail{
+    font-size: 1.25rem;
+    font-weight: 400;
+}
+
 /* responsive media query */
 /* small device */
 @media screen and (max-width:576px) {
